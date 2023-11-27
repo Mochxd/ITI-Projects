@@ -1,0 +1,101 @@
+/* Style for index.html*/
+body {
+    position: relative;
+    background: #ffffff;
+    background-image: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    position: relative;
+    left: 900px;
+    top: 50px;
+    max-height: 10%;
+}
+.home-content {
+    max-width: 55%;
+    position: relative;
+    left: 630px;
+    top: 60px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+
+}
+.home-content1 {
+    max-width: 35%;
+    position: relative;
+    left: 630px;
+    top: 65px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+
+}
+
+.navlist li {
+    margin-bottom: 5px;
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+    font-size: 16px;
+}
+
+.image {
+    position: relative;
+    bottom: 345px;
+    left: 1170px;
+}
+
+img {
+    width: 21%;
+    height: auto;
+}
+/* Style for abotus.html*/
+h2{
+    font-size: 40px;
+    font-weight: normal;
+    position: relative;
+    left: 1310px;
+    top: 50px;
+    max-height: 10%;
+}
+.navlist2 li {
+    margin-bottom: 5px;
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+    font-size: 16px;
+}
+.image2 img {
+    width: 50%; /* Make the image fill its container */
+    height: auto;
+    position: relative;
+    left: 650px;
+    top: 15px;
+}
+
+.about-content {
+    max-width: 50%;
+    position: relative;
+    left: 650px;
+    top: 30px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 25px;
+
+}
+.about-content1 {
+    max-width: 50%;
+    position: relative;
+    left: 650px;
+    top: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 25px;
+
+}
+
