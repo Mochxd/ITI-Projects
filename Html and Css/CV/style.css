@@ -1,0 +1,138 @@
+/*
+-- yui-grids style overrides -- 
+--yui-grids is used to subdivided width --
+-- here is the the link for this library https://clarle.github.io/yui3/yui/docs/cssgrids/--
+*/
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4c3c3c;
+}
+#back{
+    padding: 10px 80px;
+    margin: 80px auto;
+    background: #f5f5f5;
+    border: solid #666;
+    border-width: 8px 0 2px 0;
+}
+.yui-gf {
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 2px solid #ccc;
+}
+a#pdf {
+    display: block;
+    float: left;
+    background: #666;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+a#pdf:hover { 
+    background: #161616;
+ }
+
+#header { 
+    margin: 40px 0 48px 0;
+    padding-bottom: 42px;
+    border-bottom: 2px solid #ccc;
+}
+#header h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#body{
+    margin-bottom: 32px;
+}
+
+/* //-- core typography and style -- */
+#header h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 20px;
+}
+h3, h4 {
+    font-size: 18px;
+}
+h1, h3, h4 {
+    color: #333;
+}
+p {
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 16px;
+}
+a {
+    color: #990003
+}
+a:hover {
+    text-decoration: none;
+}
+li {
+    line-height: 24px;
+    border-bottom: 1px solid #ccc;
+}
+p.description {
+    font-size: 17px;
+    padding-right: 52px;
+    line-height: 24px;
+}
+p.description span {
+    color: #000
+}
+.skill1 { 
+   width: 32%;
+   float: left;
+}
+.skill1 h2 { 
+   margin-bottom: 6px;
+}
+.skill1 li { 
+    font-size: 15px;
+ }
+.last {
+    border-bottom: 1px;
+}
+.project { 
+    position: relative;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ccc;
+}
+.project h4 {
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+.project h4 a {
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+.project p {
+    margin: 20px 0 25px 0;
+}
+.projectf { 
+    position: relative;
+    margin-bottom: 8px;
+    padding-bottom: 2px;
+}
+.projectf h4 {
+    position: absolute;
+    top: 15px;
+}
+.projectf h4 a {
+    position: relative;
+    left: 520px;
+    bottom: 10px;
+}
+.projectf p {
+    margin: 6px 0 48px 0;
+}
+.last { 
+    border: none;
+}
